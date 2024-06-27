@@ -1,3 +1,23 @@
+Modules:
+
+  [ IAM ]
+  - src/iam/hashing/HashingService
+  - src/iam/hashing/BcrypService
+  - src/iam/authentication/AuthenticationController
+  - src/iam/authentication/AuthenticationService
+  - src/iam/authentication/dto/SignInDto
+  - src/iam/authentication/dto/SignUpDto
+  - src/iam/config/JwtConfig
+  - src/iam/authentication/guards/AccessTokenGuard
+  - src/iam/authentication/guards/AuthenticationGuard
+  - src/iam/authentication/enums/AuthType
+  - src/iam/authentication/decorators/Auth
+  - src/iam/decorators/ActiveUser
+
+  [ AUTH ]
+  - 
+
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
